@@ -1,0 +1,8 @@
+{
+    "name": "yiiapps/adminlte-asset-ext",
+    "description": "对dmstr/yii2-adminlte-asset的扩展, 并与mdmsoft/yii2-admin结合",
+    "require": {
+        "mdmsoft/yii2-admin": "~2.0",
+        "dmstr/yii2-adminlte-asset": "^2.1"
+    }
+}
