@@ -27,11 +27,6 @@ $config['as access'] = [
     ],
 ];
 
-在config/console.php中加入:
-$config['components']['authManager'] = [
-    'class' => 'yii\rbac\DbManager',
-];
-
 设置数据库
 参考yii文档
 导入190523.sql文件
