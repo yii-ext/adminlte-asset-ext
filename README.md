@@ -3,6 +3,7 @@ php composer.phar create-project --prefer-dist --stability=dev yiisoft/yii2-app-
 
 安装
 composer require yiiapps/adminlte-asset-ext
+php init
 
 配置
 在config/web.php 中加入:
