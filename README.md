@@ -1,3 +1,6 @@
+190828 添加隐藏菜单,
+
+
 ## basic模版安装方式 ##
 
     composer create-project --prefer-dist yiisoft/yii2-app-basic [项目名称]
