@@ -40,7 +40,7 @@ $menus = array_merge($menus, $menus2);
         </form>
         <!-- /.search form -->
 
-        <?=dmstr\widgets\Menu::widget(
+        <?=yiiapps\adminlte\widgets\Menu::widget(
     [
         'options' => ['class' => 'sidebar-menu tree', 'data-widget' => 'tree'],
         'items' => $menus,

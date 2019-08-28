@@ -3,8 +3,8 @@
 namespace yiiapps\adminlte\components;
 
 use mdm\admin\components\Configs;
-use mdm\admin\models\Menu;
 use Yii;
+use yiiapps\adminlte\models\Menu;
 use yii\caching\TagDependency;
 
 /**
