@@ -28,7 +28,8 @@ $('#parent_name').autocomplete({
     },
     search: function () {
         $('#parent_id').val('');
-    }
+    },
+    appendTo:"div#cp_parent_name"
 }).autocomplete("instance")._renderItem = function (ul, item) {
     return $("<li>")
         .append($('<a>').append($('<b>').text(item.name)).append('<br>')
@@ -38,4 +39,5 @@ $('#parent_name').autocomplete({
 
 $('#route').autocomplete({
     source: _opts.routes,
+    appendTo:"div#cp_route"
 });
