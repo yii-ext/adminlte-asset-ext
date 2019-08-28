@@ -70,7 +70,7 @@ class MenuHelper
         /* @var $manager \yii\rbac\BaseManager */
         $manager = Configs::authManager();
         $menus = Menu::find()->asArray()->indexBy('id')->all();
-        $version = 6;
+        $version = 7;
         $key = [__METHOD__, $userId, $manager->defaultRoles, $version];
         $cache = $config->cache;
 
