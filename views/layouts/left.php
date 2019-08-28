@@ -1,5 +1,5 @@
 <?php
-use mdm\admin\components\MenuHelper;
+use yiiapps\adminlte\components\MenuHelper;
 $menus = [
     ['label' => 'Menu Yii2', 'options' => ['class' => 'header']],
     ['label' => 'Gii', 'icon' => 'file-code-o', 'url' => ['/gii']],
@@ -16,9 +16,7 @@ $menus = array_merge($menus, $menus2);
 // var_dump($menus);exit;
 ?>
 <aside class="main-sidebar">
-
     <section class="sidebar">
-
         <!-- Sidebar user panel -->
         <div class="user-panel">
             <div class="pull-left image">
@@ -26,7 +24,6 @@ $menus = array_merge($menus, $menus2);
             </div>
             <div class="pull-left info">
                 <p>Alexander Pierce</p>
-
                 <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
             </div>
         </div>
