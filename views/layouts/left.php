@@ -3,7 +3,7 @@ use yiiapps\adminlte\components\MenuHelper;
 $menus = [
     // ['label' => 'Menu Yii2', 'options' => ['class' => 'header']],
     // ['label' => 'Gii', 'icon' => 'file-code-o', 'url' => ['/gii']],
-    ['label' => '修改密码', 'icon' => 'file-code-o', 'url' => ['site/changePassword']],
+    ['label' => '修改密码', 'icon' => 'dashboard', 'url' => ['admin/user/change-password']],
     // ['label' => 'Debug', 'icon' => 'dashboard', 'url' => ['/debug']],
     // ['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
 ];
