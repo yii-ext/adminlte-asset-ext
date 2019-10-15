@@ -10,7 +10,6 @@ return [
     ],
     'aliases' => [
         '@yiiapps/adminlte' => '@vendor/yiiapps/adminlte-asset-ext',
-        // '@yiiapps/yuqiutils' => '@vendor/yiiapps/yuqiutils',
     ],
     'components' => [
         'user' => [
@@ -31,6 +30,13 @@ return [
         'allowActions' => [
             'gii/*',
             'admin/user/login',
+        ],
+    ],
+    'params' => [
+        'mdm.admin.configs' => [
+            'userTable' => 'admin_users',
+            'menuTable' => 'admin_menus',
+            'defaultUserStatus' => 10, // 0 = inactive, 10 = active
         ],
     ],
 ];
