@@ -1,11 +1,11 @@
 <?php
 
-namespace yiiapps\adminlte\controllers;
+namespace yiiexttbq\adminlte\controllers;
 
 use mdm\admin\components\Helper;
 use mdm\admin\models\User;
 use Yii;
-use yiiapps\adminlte\models\Menu;
+use yiiexttbq\adminlte\models\Menu;
 use yii\web\Controller;
 
 /**

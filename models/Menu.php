@@ -1,5 +1,5 @@
 <?php
-namespace yiiapps\adminlte\models;
+namespace yiiexttbq\adminlte\models;
 
 class Menu extends \mdm\admin\models\Menu
 {

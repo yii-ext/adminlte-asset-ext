@@ -1,6 +1,6 @@
 <?php
 
-namespace yiiapps\adminlte\controllers;
+namespace yiiexttbq\adminlte\controllers;
 
 use mdm\admin\models\form\Signup;
 use mdm\admin\models\User;

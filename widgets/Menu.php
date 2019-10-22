@@ -1,6 +1,6 @@
 <?php
 
-namespace yiiapps\adminlte\widgets;
+namespace yiiexttbq\adminlte\widgets;
 
 use yii\helpers\Html;
 

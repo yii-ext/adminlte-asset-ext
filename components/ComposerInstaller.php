@@ -4,7 +4,7 @@
  * createTime : 16/8/7 上午10:44
  * description:
  */
-namespace yiiapps\adminlte\components;
+namespace yiiexttbq\adminlte\components;
 
 use yii\composer\Installer;
 

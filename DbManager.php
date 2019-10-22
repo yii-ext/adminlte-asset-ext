@@ -1,6 +1,6 @@
 <?php
 
-namespace yiiapps\adminlte;
+namespace yiiexttbq\adminlte;
 
 class DbManager extends \yii\rbac\DbManager
 {

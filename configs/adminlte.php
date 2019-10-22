@@ -3,14 +3,14 @@
 return [
     'modules' => [
         'admin' => [
-            'class' => 'yiiapps\adminlte\Module',
+            'class' => 'yiiexttbq\adminlte\Module',
             'layout' => 'main',
             'menus' => [], //详见 mdmsoft/yii2-admin
         ],
     ],
-    'aliases' => [
-        '@yiiapps/adminlte' => '@vendor/yiiapps/adminlte-asset-ext',
-    ],
+    // 'aliases' => [
+    //     '@yiiapps/adminlte' => '@vendor/yiiapps/adminlte-asset-ext',
+    // ],
     'components' => [
         'user' => [
             'identityClass' => 'mdm\admin\models\User',
@@ -18,7 +18,7 @@ return [
             'enableAutoLogin' => false,
         ],
         'authManager' => [
-            'class' => 'yiiapps\adminlte\DbManager',
+            'class' => 'yiiexttbq\adminlte\DbManager',
             'itemTable' => 'admin_auth_item',
             'itemChildTable' => 'admin_auth_item_child',
             'assignmentTable' => 'admin_auth_assignment',

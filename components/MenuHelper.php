@@ -1,10 +1,10 @@
 <?php
 
-namespace yiiapps\adminlte\components;
+namespace yiiexttbq\adminlte\components;
 
 use mdm\admin\components\Configs;
 use Yii;
-use yiiapps\adminlte\models\Menu;
+use yiiexttbq\adminlte\models\Menu;
 use yii\caching\TagDependency;
 
 /**
