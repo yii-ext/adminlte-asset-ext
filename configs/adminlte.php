@@ -9,7 +9,7 @@ return [
         ],
     ],
     // 'aliases' => [
-    //     '@yiiapps/adminlte' => '@vendor/yiiapps/adminlte-asset-ext',
+    //     '@yiiexttbq/adminlte' => '@vendor/yiiexttbq/adminlte',
     // ],
     'components' => [
         'user' => [

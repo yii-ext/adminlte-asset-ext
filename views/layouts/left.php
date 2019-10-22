@@ -1,5 +1,5 @@
 <?php
-use yiiapps\adminlte\components\MenuHelper;
+use yiiexttbq\adminlte\components\MenuHelper;
 $menus = [
     // ['label' => 'Menu Yii2', 'options' => ['class' => 'header']],
     // ['label' => 'Gii', 'icon' => 'file-code-o', 'url' => ['/gii']],
@@ -18,7 +18,7 @@ $menus = array_merge($menus, $menus2);
 ?>
 <aside class="main-sidebar">
     <section class="sidebar">
-        <?=yiiapps\adminlte\widgets\Menu::widget(
+        <?=yiiexttbq\adminlte\widgets\Menu::widget(
     [
         'options' => ['class' => 'sidebar-menu tree', 'data-widget' => 'tree'],
         'items' => $menus,
