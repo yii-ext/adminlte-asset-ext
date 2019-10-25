@@ -7,7 +7,7 @@
 
 ## 安装 ##
 
-	composer require yiiapps/adminlte-asset-ext
+	composer require yiiexttbq/adminlte-asset-ext
 	php init
 
 ## 配置 ##
@@ -15,11 +15,10 @@
 在config/web.php 中加入:
 
 	$config['modules']['admin'] = [
-	    'class' => 'yiiapps\adminlte\Module',
+	    'class' => 'yiiexttbq\adminlte\Module',
 	    'layout' => 'main',
 	    'menus' => [], //详见 mdmsoft/yii2-admin
 	];
-	$config['aliases']['@yiiapps/adminlte'] = '@vendor/yiiapps/adminlte-asset-ext';
 	$config['components']['user'] = [
 	    'identityClass' => 'mdm\admin\models\User',
 	    'loginUrl' => ['admin/user/login'],
